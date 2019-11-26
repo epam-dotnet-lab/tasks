@@ -53,6 +53,8 @@ namespace AsyncWebApi.Controllers
             stopwatch.Start();
 
             // TODO - use Task.WhenAll method to await on all tasks.
+            // Read more:
+            // https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/how-to-extend-the-async-walkthrough-by-using-task-whenall
 
             stopwatch.Stop();
 
