@@ -63,8 +63,6 @@ namespace AsyncFileStream
 
             try
             {
-                // Read more:
-                // https://docs.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/using-an-asynccallback-delegate-to-end-an-asynchronous-operation
                 writeFileStream.EndWrite(asyncResult);
             }
             catch (Exception)
@@ -86,6 +84,8 @@ namespace AsyncFileStream
                 stopwatch.Restart();
 
                 // TODO - create a new callback and use it with BeginRead.
+                // Read more:
+                // https://docs.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/using-an-asynccallback-delegate-to-end-an-asynchronous-operation
                 fs.Read(buffer, 0, buffer.Length);
 
                 stopwatch.Stop();

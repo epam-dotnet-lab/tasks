@@ -17,8 +17,6 @@ namespace AsyncFileStream
                 File.Delete(fileName);
             }
 
-            // Read more:
-            // https://docs.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/polling-for-the-status-of-an-asynchronous-operation
             using (var fs = new FileStream(fileName, FileMode.Create, FileAccess.ReadWrite, FileShare.ReadWrite, 1024, true))
             {
                 Console.WriteLine($"Writing {buffer.Length} bytes...");
@@ -26,14 +24,14 @@ namespace AsyncFileStream
                 var result = fs.BeginWrite(buffer, 0, buffer.Length, null, null);
 
                 // TODO block the execution by polling for IsCompleted operation status.
+                // Read more:
+                // https://docs.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/polling-for-the-status-of-an-asynchronous-operation
 
                 stopwatch.Stop();
 
                 Console.WriteLine($"{stopwatch.ElapsedMilliseconds}ms elapsed.");
             }
 
-            // Read more:
-            // https://docs.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/blocking-application-execution-by-ending-an-async-operation
             using (var fs = new FileStream(fileName, FileMode.Open, FileAccess.Read, FileShare.Read, 1024, true))
             {
                 Console.WriteLine($"Reading {buffer.Length} bytes...");
@@ -41,23 +39,25 @@ namespace AsyncFileStream
                 var result = fs.BeginRead(buffer, 0, buffer.Length, null, null);
 
                 // TODO block the execution by ending an async operation.
-                
+                // Read more:
+                // https://docs.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/blocking-application-execution-by-ending-an-async-operation
+
                 stopwatch.Stop();
 
                 Console.WriteLine($"{stopwatch.ElapsedMilliseconds}ms elapsed.");
             }
 
-            // Read more:
-            // https://docs.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/blocking-application-execution-using-an-asyncwaithandle
             using (var fs = new FileStream(fileName, FileMode.Open, FileAccess.Read, FileShare.Read, 32, true))
             {
                 Console.WriteLine($"Reading {buffer.Length} bytes...");
                 stopwatch.Restart();
-                
+
                 var result = fs.BeginRead(buffer, 0, buffer.Length, null, null);
 
                 // TODO block the execution using AsyncWaitHandle.
-
+                // Read more:
+                // https://docs.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/blocking-application-execution-using-an-asyncwaithandle
+                
                 stopwatch.Stop();
 
                 Console.WriteLine($"{stopwatch.ElapsedMilliseconds}ms elapsed.");

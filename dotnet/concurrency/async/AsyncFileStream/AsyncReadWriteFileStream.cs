@@ -25,10 +25,12 @@ namespace AsyncFileStream
             {
                 Console.WriteLine($"Writing {buffer.Length} bytes...");
                 stopwatch.Start();
-                
+
                 // TODO - use WriteAsync and await keyword.
+                // Read more:
+                // https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/using-async-for-file-access
                 fs.Write(buffer, 0, buffer.Length);
-                
+
                 stopwatch.Stop();
 
                 Console.WriteLine($"{stopwatch.ElapsedMilliseconds}ms elapsed.");
@@ -38,10 +40,10 @@ namespace AsyncFileStream
             {
                 Console.WriteLine($"Reading {buffer.Length} bytes...");
                 stopwatch.Restart();
-                
+
                 // TODO - use ReadAsync and await keyword.
                 fs.Read(buffer, 0, buffer.Length);
-                
+
                 stopwatch.Stop();
 
                 Console.WriteLine($"{stopwatch.ElapsedMilliseconds}ms elapsed.");
@@ -51,10 +53,10 @@ namespace AsyncFileStream
             {
                 Console.WriteLine($"Reading {buffer.Length} bytes...");
                 stopwatch.Restart();
-                
+
                 // TODO - use ReadAsync and await keyword.
                 fs.Read(buffer, 0, buffer.Length);
-                
+
                 stopwatch.Stop();
 
                 Console.WriteLine($"{stopwatch.ElapsedMilliseconds}ms elapsed.");
