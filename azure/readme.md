@@ -1,13 +1,18 @@
 # Azure
 
-##
+## Цель
 
-## 1. Azure Subscription
+* Научиться работать с порталом Azure.
+* Научиться создавать App Service и деплоить веб-приложение в Azure.
+* Научиться создавать БД Azure SQL и работать с базой из веб-приложения, которое задеплоено в Azure.
+
+
+## 1. Activate Benefits
 
 1. Sign in to [my.visualstudio.com/benefits](https://my.visualstudio.com/benefits) using your EPAM credentials.
-2. Follow [Activation steps](https://docs.microsoft.com/en-us/visualstudio/subscriptions/vs-azure) to activate free Azure benefit.
-
-Learn: [Создание учетной записи Azure](https://docs.microsoft.com/ru-ru/learn/modules/create-an-azure-account) [40m].
+2. Пройдите модуль:
+* Learn: [Создание учетной записи Azure](https://docs.microsoft.com/ru-ru/learn/modules/create-an-azure-account) [40m].
+3. Follow [Activation steps](https://docs.microsoft.com/en-us/visualstudio/subscriptions/vs-azure) to activate free Azure benefit.
 
 
 ## 2. Azure Portal
@@ -44,7 +49,12 @@ Learn: [Создание учетной записи Azure](https://docs.microso
 2. Выполните задания:
 * Tutorial: [Build an ASP.NET Core and SQL Database app in Azure App Service](https://docs.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-dotnetcore-sqldb)
 * Tutorial: [Tutorial: Build an ASP.NET app in Azure with SQL Database](https://docs.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-dotnet-sqldatabase)
-
+3. Выполните модуль:
+* Learn: [Подготовка базы данных SQL Azure для хранения данных приложения](https://docs.microsoft.com/ru-ru/learn/modules/provision-azure-sql-db/) [50m]
+* Learn: [Разработка и настройка приложения ASP.NET, обращающегося к базе данных SQL Azure](https://docs.microsoft.com/ru-ru/learn/modules/develop-app-that-queries-azure-sql/) [50m]
+4. Прочтите и выполните:
+* [Use the Azure portal to manage server-level IP firewall rules](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#create-and-manage-ip-firewall-rules)
+* Quickstart: [Create a server-level firewall rule for single and pooled databases using the Azure portal](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-server-level-firewall-rule) [3m]
 
 ## 5. Azure Storage Account
 
