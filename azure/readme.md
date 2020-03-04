@@ -72,3 +72,8 @@
 	* Quickstart: [Azure Blob storage client library v12 for .NET](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-dotnet) [8m]
 	* Tutorial: [Upload image data in the cloud with Azure Storage](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-upload-process-images)
 	* Learn: [Хранение данных приложения в хранилище BLOB-объектов Azure](https://docs.microsoft.com/ru-ru/learn/modules/store-app-data-with-azure-blob-storage/) [50m]
+	
+## 6. Azure App Configuration
+
+1. Посмотрите видео:
+	* [Azure App Configuration - Making Centralized Configuration Easy](https://www.youtube.com/watch?v=zRstfC3Nn7M) [Sep 24, 2019; 30m]
