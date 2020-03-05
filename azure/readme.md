@@ -29,6 +29,7 @@
 ## 3. Azure App Services
 
 1. Посмотрите видео:
+	* Microsoft Visual Studio: [Azure Services Every .NET Developer Needs to Know](https://www.youtube.com/watch?v=Z9OdipwevSM) [Sep 24, 2019; 30m] -_пример использования App Service, Azure SQL, Blob storage, Azure Functions, App Insights._
 	* Azure Portal Series: [How to create App Services in the Azure portal](https://www.youtube.com/watch?v=dHTzv-zY17I) [Jul 3, 2019; 5m]
 	* Azure Tips and Tricks: [How to work with app settings in Azure App Services](https://www.youtube.com/watch?v=P7CUEU9c0MM) [Oct 4, 2018; 2m]
 	* Azure Tips and Tricks: [How to work with Log Stream and Azure App Services](https://www.youtube.com/watch?v=wyuxnZZMeak) [Oct 16, 2018; 2m]
@@ -77,3 +78,12 @@
 
 1. Посмотрите видео:
 	* [Azure App Configuration - Making Centralized Configuration Easy](https://www.youtube.com/watch?v=zRstfC3Nn7M) [Sep 24, 2019; 30m]
+
+## 7. Azure DevOps
+
+1. Посмотрите видео:
+	* Microsoft Azure: [What is Azure DevOps?](https://www.youtube.com/watch?v=p9MPBzXBJ_w) [Jun 24, 2019; 2m]
+	* Microsoft Visual Studio: [Azure Pipelines](https://www.youtube.com/watch?v=IUak2y4s950) [Apr 4, 2019; 27m]
+	* Microsoft Visual Studio: [Azure Pipelines - Build](https://www.youtube.com/watch?v=7pzBwuMjpP0) [Oct 31, 2019; 22m]
+	* Microsoft Visual Studio: [Azure Pipelines - Release](https://www.youtube.com/watch?v=UUmgg2xqFxU) [Nov 7, 2019; 18m]
+	* Microsoft Visual Studio: [Azure DevOps: Azure Pipelines, Azure Boards + GitHub](https://www.youtube.com/watch?v=_gURf7CW1lg) [Dec 4, 2018; 18m]
