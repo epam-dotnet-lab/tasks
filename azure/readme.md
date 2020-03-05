@@ -81,9 +81,12 @@
 
 ## 7. Azure DevOps
 
-1. Посмотрите видео:
+Видео:
 	* Microsoft Azure: [What is Azure DevOps?](https://www.youtube.com/watch?v=p9MPBzXBJ_w) [Jun 24, 2019; 2m]
 	* Microsoft Visual Studio: [Azure Pipelines](https://www.youtube.com/watch?v=IUak2y4s950) [Apr 4, 2019; 27m]
 	* Microsoft Visual Studio: [Azure Pipelines - Build](https://www.youtube.com/watch?v=7pzBwuMjpP0) [Oct 31, 2019; 22m]
 	* Microsoft Visual Studio: [Azure Pipelines - Release](https://www.youtube.com/watch?v=UUmgg2xqFxU) [Nov 7, 2019; 18m]
 	* Microsoft Visual Studio: [Azure DevOps: Azure Pipelines, Azure Boards + GitHub](https://www.youtube.com/watch?v=_gURf7CW1lg) [Dec 4, 2018; 18m]
+	* Microsoft Visual Studio: [Manage and store your code in Azure Repos](https://www.youtube.com/watch?v=-5QzZzkBpF8) [Sep 10, 2018; 6m]
+	* Microsoft Visual Studio: [Continuous Builds with your GitHub projects using Azure Pipelines](https://www.youtube.com/watch?v=vlBuNM6Wzic) [Sep 10, 2018; 20m]
+	* Microsoft Visual Studio: [Building and Deploying your Code with Azure Pipelines](https://www.youtube.com/watch?v=NuYDAs3kNV8) [Sep 10, 2018; 9m]
