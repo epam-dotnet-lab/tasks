@@ -91,3 +91,13 @@
 * Microsoft Visual Studio: [Manage and store your code in Azure Repos](https://www.youtube.com/watch?v=-5QzZzkBpF8) [Sep 10, 2018; 6m]
 * Microsoft Visual Studio: [Continuous Builds with your GitHub projects using Azure Pipelines](https://www.youtube.com/watch?v=vlBuNM6Wzic) [Sep 10, 2018; 20m]
 * Microsoft Visual Studio: [Building and Deploying your Code with Azure Pipelines](https://www.youtube.com/watch?v=NuYDAs3kNV8) [Sep 10, 2018; 9m]
+
+### Статьи
+
+* [What features and services do I get with Azure DevOps?](https://docs.microsoft.com/en-us/azure/devops/user-guide/services?view=azure-devops)
+* Start Using Azure Repos
+	* [What is Azure Repos?](https://docs.microsoft.com/en-us/azure/devops/repos/get-started/what-is-repos)
+	* [Sign up for free and invite others to collaborate on your project](https://docs.microsoft.com/en-us/azure/devops/repos/get-started/sign-up-invite-teammates)
+* Get Started with Azure Pipelines
+	* [Sign up for Azure Pipelines](https://docs.microsoft.com/ru-ru/azure/devops/pipelines/get-started/pipelines-sign-up)
+	* [Create your first pipeline](https://docs.microsoft.com/ru-ru/azure/devops/pipelines/create-first-pipeline)
