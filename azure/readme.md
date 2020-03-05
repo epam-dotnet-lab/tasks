@@ -81,7 +81,8 @@
 
 ## 7. Azure DevOps
 
-Видео:
+### Видео
+
 	* Microsoft Azure: [What is Azure DevOps?](https://www.youtube.com/watch?v=p9MPBzXBJ_w) [Jun 24, 2019; 2m]
 	* Microsoft Visual Studio: [Azure Pipelines](https://www.youtube.com/watch?v=IUak2y4s950) [Apr 4, 2019; 27m]
 	* Microsoft Visual Studio: [Azure Pipelines - Build](https://www.youtube.com/watch?v=7pzBwuMjpP0) [Oct 31, 2019; 22m]
