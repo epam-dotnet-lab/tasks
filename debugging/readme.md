@@ -23,11 +23,13 @@ Read articles from the list below, and complete tasks from this articles:
 Watch videos:
 
 * [Debugging Tips and Tricks Part 1](https://www.youtube.com/watch?v=Uld-2m2tGiI)
-Features discussed: Run to Click, Pin a DataTip, DebuggerDisplay, String Visualizers, Set Next Statement, Tracepoints, Conditional Breakpoints
+  * Features discussed: Run to Click, Pin a DataTip, DebuggerDisplay, String Visualizers, Set Next Statement, Tracepoints, Conditional Breakpoints
 
 * [Debugging Tips and Tricks Part 2](https://www.youtube.com/watch?v=kQHbGPF7TZQ)
-Features discussed: Search for Objects and Properties, Break when a value changes, Object ID, Step Into Specific, View return values of method calls, $ReturnValue
+  * Features discussed: Search for Objects and Properties, Break when a value changes, Object ID, Step Into Specific, View return values of method calls, $ReturnValue
 
+* [Debugging Managed Async Code in Visual Studio 2019](https://www.youtube.com/watch?v=aVEug50YpaM)
+  * Features discussed: Tasks W., Callstack W.
 
 ### Shortcuts
 
