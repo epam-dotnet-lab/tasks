@@ -23,7 +23,7 @@ namespace AsyncFileStream
 
             byte[] buffer = CreateBuffer(bufferSize);
             
-            SyncReadWriteFileStream.Run(fileName, buffer);
+            ReadWriteFileStream.Run(fileName, buffer);
 
             // TODO (1) uncomment the line below and fix TODO in the method.
             // ApmReadWriteFileStream.Run(fileName, buffer);

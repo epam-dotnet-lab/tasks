@@ -17,8 +17,10 @@ namespace AsyncFileStream
                 File.Delete(fileName);
             }
 
-            using (var fs = new FileStream(fileName, FileMode.Create, FileAccess.ReadWrite, FileShare.ReadWrite, 1024, false))
+            FileStream fs = null;
+            try
             {
+                fs = new FileStream(fileName, FileMode.Create, FileAccess.ReadWrite, FileShare.ReadWrite, 1024, false);
                 Console.WriteLine($"Writing {buffer.Length} bytes...");
                 stopwatch.Start();
 
@@ -28,9 +30,18 @@ namespace AsyncFileStream
 
                 Console.WriteLine($"{stopwatch.ElapsedMilliseconds}ms elapsed.");
             }
-
-            using (var fs = new FileStream(fileName, FileMode.Open, FileAccess.Read, FileShare.Read, 1024, false))
+            finally
             {
+                if (fs != null)
+                {
+                    fs.Dispose();
+                }
+            }
+
+            fs = null;
+            try
+            {
+                fs = new FileStream(fileName, FileMode.Open, FileAccess.Read, FileShare.Read, 1024, false);
                 Console.WriteLine($"Reading {buffer.Length} bytes...");
                 stopwatch.Restart();
 
@@ -40,9 +51,19 @@ namespace AsyncFileStream
 
                 Console.WriteLine($"{stopwatch.ElapsedMilliseconds}ms elapsed.");
             }
-
-            using (var fs = new FileStream(fileName, FileMode.Open, FileAccess.Read, FileShare.Read, 32, false))
+            finally
             {
+                if (fs != null)
+                {
+                    fs.Dispose();
+                }
+            }
+
+            fs = null;
+            try
+            {
+                fs = new FileStream(fileName, FileMode.Open, FileAccess.Read, FileShare.Read, 32, false);
+
                 Console.WriteLine($"Reading {buffer.Length} bytes...");
                 stopwatch.Restart();
 
@@ -51,6 +72,13 @@ namespace AsyncFileStream
                 stopwatch.Stop();
 
                 Console.WriteLine($"{stopwatch.ElapsedMilliseconds}ms elapsed.");
+            }
+            finally
+            {
+                if (fs != null)
+                {
+                    fs.Dispose();
+                }
             }
 
             File.Delete(fileName);
